@@ -1,0 +1,22 @@
+ion-img {
+    height: 100%;
+    background-color: black;
+}
+
+#img-portada {
+    object-fit: fill;
+}
+
+#texto-informativo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position : absolute;
+    bottom: 30%;
+    color:rgb(255, 123, 0);
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #ffffff;
+    padding: 1em;
+    pointer-events: none;
+}
