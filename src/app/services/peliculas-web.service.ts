@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { IMovie } from '../interfaces/imovie';
 
-
 @Injectable({
   providedIn: 'root'
 })
