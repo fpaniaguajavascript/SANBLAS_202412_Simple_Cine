@@ -1,3 +1,5 @@
-<p>
-  fichapelicula works!
-</p>
+<ion-item>
+  <ion-label>{{pelicula?.Title}}</ion-label>
+  <ion-label>{{pelicula?.Director}}</ion-label>
+  <ion-img [src]="pelicula?.Poster?.replace('http','https')"></ion-img>
+</ion-item>

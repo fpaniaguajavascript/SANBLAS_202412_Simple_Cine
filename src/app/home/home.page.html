@@ -1,5 +1,10 @@
 <ion-content [fullscreen]="true">
-  <div *ngFor="let movie of movies">
-    <app-fichapelicula></app-fichapelicula>
-  </div>
+  <ion-list>
+    <!--
+    @for (movie of movies; track movie) {
+      <app-fichapelicula [pelicula]="movie"></app-fichapelicula>
+    }
+    -->
+    <app-fichapelicula *ngFor="let movie of movies" [pelicula]="movie"></app-fichapelicula>
+  </ion-list>
 </ion-content>
